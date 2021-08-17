@@ -1,0 +1,23 @@
+.table-container {
+	max-height: 100vh;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	scroll-snap-type: both;
+}
+
+table {
+	position: relative;
+	border-collapse: collapse;
+}
+
+thead {
+	position: sticky;
+	top: -1px;
+	text-align: left;
+	background: #ddd;
+}
+
+th,
+td {
+	padding: 0.25rem;
+}
